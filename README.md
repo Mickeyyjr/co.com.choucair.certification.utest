@@ -1,4 +1,4 @@
-# pruebaTecnica
+# co.com.choucair.certification.utest
 Prueba técnica automatización web, patrón de diseño ScreenPlay, desarrollado con java 8 y gradle.
 
 Comandos de ejecucion:
