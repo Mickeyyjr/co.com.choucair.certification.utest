@@ -1,5 +1,6 @@
 package co.com.choucair.certification.utest.userinterfaces;
 
+import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
@@ -20,11 +21,12 @@ public class PaginaRegistro {
     public  static final Target SELECT_OS_LANGUAGE = Target.the("Select lenguaje").located(By.xpath("//span[@aria-label = 'Select OS language']"));
     public  static final Target SELECT_YOUR_MOBILE_DEVICE = Target.the("Select dispositivo movil").located(By.xpath("//span[@aria-label = 'Select Brand']"));
     public  static final Target SELECT_MODEL = Target.the("Select modelo").located(By.xpath("//span[@aria-label = 'Select a Model']"));
-    public  static final Target SELECT_OPERATING_SYSTEM = Target.the("Select sisetma operaivo").located(By.xpath("(//span[@aria-label = 'Select OS'])[2]"));
+    public  static final Target SELECT_OPERATING_SYSTEM = Target.the("Select sistema operaivo").located(By.xpath("(//span[@aria-label = 'Select OS'])[2]"));
     public  static final Target INPUT_PASSWORD = Target.the("Input contraseña").located(By.id("password"));
     public  static final Target INPUT_CONFIRM_PASSWORD = Target.the("Input confirmar contraseña").located(By.id("confirmPassword"));
     public  static final Target CHECKBOX_TERMS_OF_USE = Target.the("Checkbox terminos de uso").located(By.id("termOfUse"));
     public  static final Target CHECKBOX_PRIVACY_SETTING = Target.the("Checkbox ajustes de privacidad").located(By.id("privacySetting"));
+    public  static final Target OPTION_TO_SELECT = Target.the("Opcion a seleccionar").locatedBy("//div[text()= '{0}']");
 
 
 
